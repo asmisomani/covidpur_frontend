@@ -1,0 +1,152 @@
+.link a {
+    color: black !important;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.link a:hover {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.footlogotext {
+    width: 60%;
+}
+
+.footer {
+    background-color: #f6f7fb;
+}
+
+.foot {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.subscriptionbox h3,
+
+.footer h2 {
+    font-size: 1.3rem;
+
+    color: #58547e;
+}
+
+.footer h3 {
+    font-size: 1rem;
+}
+
+.subscriptionbox .betextarea {
+    background: white url(http://www.rhism.com/images/email-icon.png) no-repeat;
+    background-size: 20px;
+    border: none;
+    background-position: 10px 15px;
+    border-radius: 10px;
+    height: 10px;
+    width: 230px;
+    padding: 20px 10px;
+    color: black;
+    text-indent: 40px;
+    outline: none;
+    margin-top: 8px;
+}
+
+.besubmit {
+    height: 40px;
+    line-height: 40px !important;
+    width: 224px;
+    text-align: center;
+    font: 400 15px "open sans", sans-serif;
+    background: #57537d;
+    color: #fff;
+    border: none;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.besubmit:hover {
+    background: #57537d;
+}
+
+.footlogoimg {
+    margin-left: -1rem;
+    margin-bottom: 1rem;
+}
+
+.register_to_help_btn {
+
+    padding: 0.3rem 1rem;
+
+    margin: 0.5rem 0rem;
+    
+    border: none;
+    border-radius: 1.3rem;
+    background: #008000;
+    color: #fff;
+
+}
+
+.get_vacinated_btn {
+
+    padding: 0.3rem 1.3rem;
+
+    margin-bottom: 0.5rem;
+
+    border: none;
+    border-radius: 1.3rem;
+    background: #85547e;
+    color: #fff;
+
+}
+
+@media screen and (max-width: 767px) {
+    .footlogoimg {
+        width: 30% !important;
+    }
+
+    .subscriptionbox h3,
+    .link h3 {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 950px) {
+    .footlogoimg {
+        width: 70%;
+        margin-left: -1rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .footlogoimg {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .subscriptionbox .betextarea {
+        width: 100%;
+    }
+
+    .footlogoimg {
+        width: 40%;
+        height: 2.5rem;
+        padding-left: 1rem;
+    }
+
+    .besubmit {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 766px) and (min-height: 1020px) {
+    .footlogoimg {
+        width: 50%;
+    }
+
+    .besubmit {
+        width: 100%;
+    }
+}

@@ -1,0 +1,177 @@
+.hands .washing_process_area {
+  background: #57537d;
+  padding-top: 75px;
+}
+
+.hands .pad_btm {
+  padding-bottom: 100px;
+}
+
+.hands article,
+.hands aside,
+.hands figcaption,
+.hands figure,
+.hands footer,
+.hands header,
+.hands hgroup,
+.hands main,
+.hands nav,
+.hands section {
+  display: block;
+}
+
+.hands *,
+.hands ::after,
+.hands ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hands .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hands .washing_process_area .main_title {
+  margin-bottom: 95px;
+}
+
+.hands .text-center {
+  text-align: center !important;
+}
+
+.hands .main_title h5 {
+  font: 500 24px quicksand, sans-serif;
+  color: #01cfbe;
+  margin-bottom: 5px;
+}
+
+.hands h5 {
+  display: block;
+  -webkit-margin-before: 1.67em;
+          margin-block-start: 1.67em;
+  -webkit-margin-after: 1.67em;
+          margin-block-end: 1.67em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+.hands h2 {
+  display: block;
+  -webkit-margin-before: 0.83em;
+          margin-block-start: 0.83em;
+  -webkit-margin-after: 0.83em;
+          margin-block-end: 0.83em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+.hands .main_title.white h2 {
+  color: #fff;
+}
+
+.hands .main_title h2 {
+  font: 700 48px quicksand, sans-serif;
+  margin-bottom: 0;
+}
+
+.hands .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.hands .fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
+.hands .washing_item {
+  text-align: center;
+}
+
+.hands .washing_item .icon {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.hands .imgg {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.hands .washing_item .icon .number {
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  background: #01cfbe;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+.hands .washing_item p {
+  color: #c4c0e4;
+  margin-bottom: 0;
+  margin-left: 15px;
+  margin-right: 7px;
+}
+
+.hands .washing_item p span {
+  color: #fff;
+  font-weight: 700;
+}
+
+.hands .washing_item p {
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+@media (min-width: 576px) {
+  .hands .col-sm-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .hands .washing_process_inner .col-lg-2:nth-child(even) {
+    margin-top: 130px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hands .container,
+  .hands .container-md,
+  .hands .container-sm {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hands .washing_process_inner {
+    margin-bottom: -51px;
+  }
+}
+/*# sourceMappingURL=Hands.css.map */

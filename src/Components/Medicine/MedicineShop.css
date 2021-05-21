@@ -1,0 +1,82 @@
+.Bigcontentbox {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 60% !important;
+  margin-bottom: 1rem;
+}
+
+.contentboxs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boxcontents {
+  margin-left: 1.5rem;
+}
+
+.addresss {
+  width: 20rem;
+}
+
+.Bigcontentbox p {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.boxcontents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1023px) {
+  .Bigcontentbox {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 20px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Bigcontentbox {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: 100%;
+  }
+  .Bigcontentbox img {
+    width: 100%;
+    height: auto;
+  }
+  .Bigcontentbox h4 {
+    margin-bottom: 0;
+  }
+  .addresss {
+    width: auto;
+  }
+  .boxcontents {
+    display: block;
+  }
+}
+/*# sourceMappingURL=MedicineShop.css.map */

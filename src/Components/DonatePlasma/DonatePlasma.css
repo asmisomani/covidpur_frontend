@@ -1,0 +1,136 @@
+.plasma_container {
+  padding: 1rem 0;
+  background-color: #f6f5fa;
+}
+
+.plasma_top {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% 25%;
+      grid-template-columns: 75% 25%;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+          box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+}
+
+.plasma_heading {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  color: #736f94;
+}
+
+.plasma_top button {
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: #02cfbe;
+  -webkit-box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+          box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+}
+
+.plasma_blood h2 {
+  margin: 1.5rem 0 0 0;
+  font-size: 1rem;
+  color: #736f94;
+  font-weight: bold;
+}
+
+.plasma_blood_group {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 23% 23% 23% 23%;
+      grid-template-columns: 23% 23% 23% 23%;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.plasma_blood button {
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #fff;
+  color: #736f94;
+  font-weight: bolder;
+  -webkit-box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+          box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (min-width: 539px) {
+  .plasma_blood_group {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 23% 23% 23% 23%;
+        grid-template-columns: 23% 23% 23% 23%;
+    gap: 0.8rem;
+  }
+  .plasma_heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .plasma_heading {
+    font-size: 1.7rem;
+  }
+  .plasma_top button {
+    font-size: 1.5rem;
+  }
+  .plasma_container {
+    padding: 1rem 2rem;
+  }
+  .plasma_blood h2 {
+    font-size: 1.3rem;
+  }
+  .plasma_blood_group {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 23% 23% 23% 23%;
+        grid-template-columns: 23% 23% 23% 23%;
+    gap: 1.1rem;
+  }
+  .plasma_blood button {
+    padding: 2.5rem;
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .plasma_container {
+    padding: 3rem 8rem;
+  }
+  .plasma_top {
+    margin-top: 2rem;
+    padding: 2rem;
+  }
+  .plasma_heading {
+    font-size: 1.9rem;
+  }
+  .plasma_blood_group {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 23% 23% 23% 23%;
+        grid-template-columns: 23% 23% 23% 23%;
+    gap: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .plasma_blood_group {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 23% 23% 23% 23%;
+        grid-template-columns: 23% 23% 23% 23%;
+    gap: 1.8rem;
+  }
+  .plasma_donate_button {
+    padding: 2rem;
+  }
+}
+/*# sourceMappingURL=DonatePlasma.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EAEE,OAAO,EAAE,CAAC;EAEV,MAAM,EAAE,CAAC;EAET,UAAU,EAAE,UAAU;CAEzB;;AAED,AAAA,2BAA2B,CAAC;EAExB,KAAK,EAAE,IAAI;EAEX,UAAU,EAAE,OAAQ;CAYvB;;AAhBD,AAMI,2BANuB,CAMvB,EAAE,CAAC;EAEC,OAAO,EAAE,MAAM;EACf,MAAM,EAAE,CAAC;EAET,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "CustomizeSearch.module.scss"
+    ],
+    "names": [],
+    "file": "CustomizeSearch.module.css"
+}

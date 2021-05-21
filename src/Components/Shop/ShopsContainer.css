@@ -1,0 +1,81 @@
+.shop_container {
+  padding: 2rem 1.5rem;
+  background-color: #f6f5fa;
+}
+
+.shop_top {
+  text-align: center;
+}
+
+.shop_top h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #736f94;
+}
+
+.shop_top form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 85% 15%;
+      grid-template-columns: 85% 15%;
+  padding: 0;
+  margin: 0;
+}
+
+.shop_top form input {
+  height: 2.5rem;
+  border: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+  margin-top: 0.8rem;
+  width: 100%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shop_top form button {
+  margin-top: 0.8rem;
+  width: 100%;
+  border-radius: 0 0.5rem 0.5rem 0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #02cfbe;
+  border: none;
+}
+
+.shop_top form button .searchicon {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 1000;
+}
+
+@media only screen and (min-width: 767px) {
+  .shop_top form {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 85% 15%;
+        grid-template-columns: 85% 15%;
+    padding: 2rem 0rem;
+  }
+  .shop_top form input {
+    width: 35rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .shop_top form {
+    padding: 2rem 0rem;
+  }
+  .shop_top form input {
+    height: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1279px) {
+  .shop_top form {
+    padding: 2rem 0rem;
+  }
+  .shop_top form input {
+    height: 3.5rem;
+  }
+}
+/*# sourceMappingURL=ShopsContainer.css.map */

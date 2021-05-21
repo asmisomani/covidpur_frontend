@@ -1,0 +1,27 @@
+* {
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+.vacc_toggle_btn {
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.get_vaccin_container {
+    padding: 1rem;
+}
+
+
+@media only screen and (min-width:767px) {
+
+    .vacc_toggle_btn {
+        padding: 0.3rem  4rem;
+    }
+
+}

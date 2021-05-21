@@ -1,0 +1,62 @@
+.Bigcontentbox {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+          box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+  width: 70%;
+}
+
+.contentboxs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.boxcontents {
+  margin-left: 1.5rem;
+}
+
+.addresss {
+  width: 20rem;
+}
+
+.Bigcontentbox p {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.boxcontents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .Bigcontentbox {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .Bigcontentbox h4 {
+    margin-bottom: 0;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+  .addresss {
+    width: 15rem;
+  }
+  .boxcontents {
+    display: block;
+  }
+}
+/*# sourceMappingURL=Bigcontentbox.css.map */

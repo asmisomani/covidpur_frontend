@@ -1,0 +1,40 @@
+.Smallcontentbox {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+          box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+}
+
+.contentbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.boxcontent {
+  margin-left: 1.5rem;
+}
+
+.address {
+  width: 20rem;
+}
+
+.Smallcontentbox p {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+@media screen and (min-width: 500px) {
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+  .address {
+    width: 15rem;
+  }
+}
+/*# sourceMappingURL=Smallcontentbox.css.map */

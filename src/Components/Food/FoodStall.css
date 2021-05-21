@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hospital_container {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxpurple {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 5rem;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  color: white;
+  margin-left: 2%;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: purple;
+}
+
+.boxred {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 5rem;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  background-color: red;
+  color: white;
+  margin-left: 2%;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.boxgreen {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 5rem;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  background-color: green;
+  border-radius: 0.5rem;
+  color: white;
+  margin-left: 2%;
+  text-align: center;
+}
+
+.boxyellow {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 5rem;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  background-color: #cccc00;
+  color: white;
+  margin-left: 2%;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+#icon_show_hide {
+  display: none;
+}
+
+.hospital_beds_grid h4, .hospital_beds_grid p {
+  text-align: center;
+}
+
+@media only screen and (min-width: 767px) {
+  #icon_show_hide {
+    display: block;
+    padding-right: 0.5rem;
+  }
+  .hospital_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hospital_beds_grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hospital_beds_grid h4, .hospital_beds_grid p {
+    text-align: left;
+    padding-right: 0.5rem;
+  }
+  .beds_grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=FoodStall.css.map */

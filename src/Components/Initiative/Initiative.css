@@ -1,0 +1,97 @@
+.covid_form_background {
+  padding: 3rem 1.5rem;
+  background-color: #f6f5fa;
+}
+
+.covid_form {
+  margin: 1rem 0rem;
+  color: #736f94;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.covid_form label {
+  width: 100%;
+}
+
+.covid_form label input {
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 0.8rem;
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  -webkit-box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+          box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+}
+
+.covid_form label select {
+  border: none;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  -webkit-box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+          box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+}
+
+.covid_form button {
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-top: 1.6rem;
+  padding: 0.6rem;
+  background-color: #02cfbe;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  -webkit-box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+          box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+}
+
+.covid_form_container2 {
+  padding: 2rem 1.5rem;
+  background: #c0c0c0;
+}
+
+.covid_form_container2 h1 {
+  color: #58547E;
+  text-align: center;
+}
+
+.covid_form_container2 p {
+  color: #58547E;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 539px) {
+  .covid_form_container {
+    padding: 3rem 3.5rem;
+  }
+  .covid_form_container2 {
+    padding: 2rem 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .covid_form_container {
+    padding: 3rem 6.5rem;
+  }
+  .covid_form_container2 {
+    padding: 2rem 6.5rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .covid_form_main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
+  .covid_form_container {
+    padding: 2rem 4.5rem;
+  }
+  .covid_form_container2 {
+    padding: 2rem 4.5rem;
+  }
+}
+/*# sourceMappingURL=Initiative.css.map */

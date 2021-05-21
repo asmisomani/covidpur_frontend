@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.head h2 {
+  font-family: "roboto";
+  margin: 2rem 0rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #57537d;
+}
+
+.service_card_contianer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 49% 49%;
+      grid-template-columns: 49% 49%;
+  grid-gap: 2%;
+  margin-bottom: 3.5rem;
+}
+
+.service_card_contianer .service_card {
+  width: 97%;
+  height: 97%;
+}
+
+.service_card_contianer .service_card img {
+  width: 100%;
+  height: 7rem;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service_card_contianer .service_card p {
+  font-family: "roboto";
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #57537d;
+}
+
+@media only screen and (min-width: 767px) {
+  .service_card_contianer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    grid-gap: 1.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .service_card_contianer .service_card img {
+    height: 15rem;
+  }
+  .service_card_contianer .service_card p {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=Service.css.map */

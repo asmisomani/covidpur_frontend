@@ -1,0 +1,118 @@
+* {
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+.medicine_container {
+    background: #f6f5fa;
+}
+
+.toggle_btn {
+    
+    padding: 0.2rem 1rem;
+
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.shop_container {
+    display: grid;
+    justify-items: center;
+}
+
+
+.medicine_form {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+
+    input {
+        border: none;
+        padding: 0.5rem;
+        width: 90%;
+        border-bottom-left-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    button {
+        border: none;
+
+        padding: 0rem 0.5rem;
+
+        border-bottom-right-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        background-color: #01cfbc;
+        color: #fff;
+    }
+}
+
+.button_center {
+    display: grid;
+    justify-items: center;
+    margin: 1rem 0rem;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.oxygen_top {
+    margin-top: 2rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-color: #fff; 
+    border-radius: 0.5rem;
+    box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+}
+
+.oxygen_donate_button {
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: #02cfbe;
+}
+
+@media only screen and (min-width:767px) {
+
+    .oxygen_top {
+        
+        width: 70.5%;
+
+        margin: auto;
+
+    }
+    
+.button_container {
+    width: 29.7rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+    .toggle_btn {
+        padding: 0.3rem  4rem;
+    }
+
+    .medicine_form {
+          
+        input {
+            border: none;
+            width: 45%;
+           
+        }
+      
+    }
+
+}

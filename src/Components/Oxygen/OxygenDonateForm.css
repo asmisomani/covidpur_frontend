@@ -1,0 +1,129 @@
+.donate_container {
+  padding: 2rem 1.5rem;
+  background-color: #f6f5fa;
+}
+
+.donate_top {
+  text-align: center;
+}
+
+.donate_top h1 {
+  font-weight: bolder;
+  color: #736f94;
+}
+
+.donate_form {
+  margin-top: 2rem;
+  color: #736f94;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.donate_form label {
+  width: 100%;
+}
+
+.donate_form label input {
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 0.8rem;
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  -webkit-box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+          box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+}
+
+.donate_form label select {
+  border: none;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  -webkit-box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+          box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+}
+
+.donate_form button {
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-top: 1.6rem;
+  padding: 0.6rem;
+  background-color: #02cfbe;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  -webkit-box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+          box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15);
+}
+
+.location_container {
+  position: relative;
+}
+
+.location_img {
+  position: absolute;
+  top: 2.6rem;
+  width: 1.5rem;
+  right: 0.5rem;
+}
+
+@media only screen and (min-width: 539px) {
+  .donate_container {
+    padding: 2rem 4rem;
+  }
+  .donate_form label input {
+    height: 2rem;
+  }
+  .donate_form label select {
+    height: 2rem;
+  }
+  .location_img {
+    position: absolute;
+    top: 2.8rem;
+    width: 1.5rem;
+    right: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .donate_container {
+    padding: 2rem 6rem;
+  }
+  .donate_form {
+    font-size: 1.3rem;
+  }
+  .donate_form label input {
+    height: 2.5rem;
+  }
+  .donate_form label select {
+    height: 2.5rem;
+  }
+  .location_img {
+    position: absolute;
+    top: 3.1rem;
+    width: 1.7rem;
+    right: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .donate_container {
+    padding: 4rem 10rem;
+  }
+  .donate_form {
+    font-size: 1.3rem;
+  }
+  .donate_form label input {
+    height: 2.5rem;
+  }
+  .donate_form label select {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .donate_container {
+    padding: 4rem 14rem;
+  }
+}
+/*# sourceMappingURL=OxygenDonateForm.css.map */

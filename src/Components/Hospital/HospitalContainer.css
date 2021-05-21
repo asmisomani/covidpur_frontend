@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.medicine_container {
+  background: #f6f5fa;
+}
+
+.toggle_btn {
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+}
+
+.shop_container {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+.medicine_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+}
+
+.medicine_form input {
+  border: none;
+  padding: 0.5rem;
+  width: 90%;
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.medicine_form button {
+  border: none;
+  padding: 0rem 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: #01cfbc;
+  color: #fff;
+}
+
+.button_center {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  margin: 1rem 0rem;
+}
+
+.button_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (min-width: 767px) {
+  .button_container {
+    width: 29.7rem;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .toggle_btn {
+    padding: 0.3rem  4rem;
+  }
+  .medicine_form input {
+    border: none;
+    width: 45%;
+  }
+}
+/*# sourceMappingURL=HospitalContainer.css.map */
