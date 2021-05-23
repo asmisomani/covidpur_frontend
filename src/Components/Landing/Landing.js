@@ -11,6 +11,7 @@ import CustomizeSearch from "./CusmotizeSearch/CustomizeSearch";
 import Login from "../Login/Login";
 
 function Landing() {
+
     return (
         <div className={landing_classes.landin}>
             <Navigation />

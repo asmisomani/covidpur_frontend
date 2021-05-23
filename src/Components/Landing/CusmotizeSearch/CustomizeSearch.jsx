@@ -1,18 +1,18 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 
-import customize_search_classes from "./CustomizeSearch.module.css";
+import InputMirror from "../../SearchDistrict/InputMirror";
+
+import store from "../../Store/Store";
+
 
 export default function CustomizeSearch() {
+
     return (
 
-        <section className={customize_search_classes.customize_search_container}>
+        <>
 
-            <div className="container">
-                
-                <marquee behavior="" direction="left">  <h1> Customized Search Result for: Dist Purulia, State: West Bengal </h1> </marquee>
+        <InputMirror store={store}/>
 
-            </div>
-        
-        </section>
+        </>
     )
 }
